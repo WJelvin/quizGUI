@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #764B8E;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button  layoutX="78.0" layoutY="200.0" mnemonicParsing="false" text="Börja spela" textFill="#260339" onAction="#returnToServer">
+         <font>
+            <Font name="Sitka Small Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="78.0" layoutY="163.0" fx:id="nameField"/>
+      <Label layoutX="78.0" layoutY="124.0" text="Ange ditt namn" textFill="#260339">
+         <font>
+            <Font name="Sitka Banner" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="45.0" text="Frågekampen" textFill="#260339">
+         <font>
+            <Font name="Sitka Text" size="70.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
